@@ -99,8 +99,14 @@
 .icon_size_4x{
     font-size: 4ex;
 }
-.icon_colour_orange{
-    color: #ff1818;
+.icon_colour_green{
+    color: #13e42f;
+}
+.icon_colour_yellow{
+    color: #fded10;
+}
+.icon_colour_Red{
+    color: #f70303;
 }
 .text_colour{
     color: #777;
@@ -154,11 +160,20 @@
     transform: 0.5s;
 }
 .nav-link.active {
-    color: #f05f40 !important;
+    color: #4069f0f6 !important;
     font-weight: bold;
 }
 .navbar-brandActive {
-    color: #f05f40 !important;
+    color: #4069f0f6 !important;
     font-size: 1.3rem;
 
 }
+.zoom {
+    transition: 0.2s;
+  }
+  
+.zoom:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5); 
+  }

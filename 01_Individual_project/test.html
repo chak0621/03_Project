@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
+          <!--This CDN allows us to use the bootstrap code in css-->
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    
+          <!--This CDN allows us to use font awesome fonts/ icons-->
+          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  
+          <!--animate stylesheet-->
+          <link rel="stylesheet" href="./02_Asset/01_css/animate.css">
+      
+          <!--custom stylesheet-->
+          <link rel="stylesheet" href="./02_Asset/01_css/stylesheet.css">
+  
+  
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 * {
@@ -8,7 +22,7 @@
 }
 
 .zoom {
-  padding: 50px;
+  padding: 0 0 0 0;
   background-color: green;
   transition: transform .2s;
   width: 200px;
@@ -17,8 +31,8 @@
 }
 
 .zoom:hover {
-  -ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5); 
   transform: scale(2); 
 }
 </style>
@@ -27,7 +41,8 @@
 
 <h1>Zoom on Hover</h1>
 <p>Hover over the div element.</p>
-  
+
+<img src='./02_Asset/02_images/CEH.jpg' class='zoom'>
 <div class="zoom"></div>
 
 </body>
