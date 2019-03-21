@@ -15,5 +15,6 @@ Webpage content:
 1. 4 section display differnet information
 2. the certification will come out one by one
 3. attached the anmated GIF in webpage
+4. will zoom in the certificate
 
  
